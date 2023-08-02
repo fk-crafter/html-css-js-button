@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    font-size: 17px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    background-color: #1877f2 ;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-image: linear-gradient(90deg,
+    #361d6e  0%,
+    #1e348a 50%,
+    #0c405c 75%,
+    #0a504a 100%);
+    color: black;
+    animation: slide 10s linear infinite;
+    transform: scale(1.1);
+}
+
+@keyframes slide {
+    100% {
+      background-position: 50rem;
+    }
+  } 
