@@ -43,18 +43,18 @@ button {
     transform-origin: bottom left;
   }
   
-  button .clone > *,button .text > * {
+  button .hover > *,button .text > * {
     opacity: 1;
     font-size: 1.3rem;
     transition: 0.2s;
     margin-left: 4px;
   }
   
-  button .clone > * {
+  button .hover > * {
     transform: translateY(60px);
   }
   
-  button:hover .clone > * {
+  button:hover .hover > * {
     opacity: 1;
     transform: translateY(0px);
     transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
@@ -81,7 +81,7 @@ button {
   button:hover .hover > :nth-child(4) {
     transition-delay: 0.3s;
   }
-
+  /* icon style and hover */
   button svg {
     width: 20px;
     right: 0;
